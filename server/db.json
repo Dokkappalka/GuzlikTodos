@@ -1,0 +1,196 @@
+{
+  "boards": [
+    {
+      "title": "Доделать",
+      "id": 1
+    },
+    {
+      "title": "TEST",
+      "id": 2
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Дизайн",
+      "boardId": 1,
+      "id": 1
+    },
+    {
+      "title": "Остальное",
+      "boardId": 1,
+      "id": 2
+    },
+    {
+      "title": "Сомнительные фиксы",
+      "boardId": 1,
+      "id": 3
+    },
+    {
+      "title": "Items Position",
+      "boardId": 1,
+      "id": 4
+    },
+    {
+      "title": "Один",
+      "boardId": 2,
+      "id": 5
+    },
+    {
+      "title": "Два",
+      "boardId": 2,
+      "id": 6
+    }
+  ],
+  "items": [
+    {
+      "name": "drag-n-drop",
+      "taskId": 2,
+      "isDone": true,
+      "id": 2
+    },
+    {
+      "name": "Оптимизировать код / написать его более правильно",
+      "taskId": 3,
+      "isDone": true,
+      "id": 3
+    },
+    {
+      "name": "Оптимизировать сайт при долгих загрузках",
+      "taskId": 2,
+      "isDone": true,
+      "id": 4
+    },
+    {
+      "name": "Долгая загрузка boards и tasks",
+      "taskId": 2,
+      "isDone": true,
+      "id": 5
+    },
+    {
+      "name": "Навести порядок в ItemsItems",
+      "taskId": 3,
+      "isDone": true,
+      "id": 6
+    },
+    {
+      "name": "Не отправлять запрос, если данные не изменились",
+      "taskId": 2,
+      "isDone": true,
+      "id": 7
+    },
+    {
+      "name": "Посмотреть, что там с async await можно сделать",
+      "taskId": 3,
+      "isDone": false,
+      "id": 8
+    },
+    {
+      "name": "keepUnusedDataFor: 0.0001",
+      "taskId": 3,
+      "isDone": true,
+      "id": 9
+    },
+    {
+      "name": "Анимации",
+      "taskId": 1,
+      "isDone": false,
+      "id": 15
+    },
+    {
+      "name": "При попытке реализовать функционал падает приложение",
+      "taskId": 4,
+      "isDone": false,
+      "id": 16
+    },
+    {
+      "name": "Потому что на json-server поступает много запросов ",
+      "taskId": 4,
+      "isDone": false,
+      "id": 17
+    },
+    {
+      "name": "Возможно, я не так реализовал функционал",
+      "taskId": 4,
+      "isDone": false,
+      "id": 18
+    },
+    {
+      "name": "Но мне все же кажется, что библиотека просто не подходит",
+      "taskId": 4,
+      "isDone": false,
+      "id": 19
+    },
+    {
+      "name": "Потому что сервер не может нормально обработать входящие данные",
+      "taskId": 4,
+      "isDone": false,
+      "id": 20
+    },
+    {
+      "name": "И нужно отправлять много запросов, чтобы изменить каждый item",
+      "taskId": 4,
+      "isDone": false,
+      "id": 21
+    },
+    {
+      "name": "1.1",
+      "taskId": 6,
+      "isDone": true,
+      "id": 22
+    },
+    {
+      "name": "1.2",
+      "taskId": 5,
+      "isDone": false,
+      "id": 23
+    },
+    {
+      "name": "1.3",
+      "taskId": 6,
+      "isDone": true,
+      "id": 24
+    },
+    {
+      "name": "1.4",
+      "taskId": 5,
+      "isDone": false,
+      "id": 25
+    },
+    {
+      "name": "2.1",
+      "taskId": 5,
+      "isDone": false,
+      "id": 26
+    },
+    {
+      "name": "2.2",
+      "taskId": 6,
+      "isDone": true,
+      "id": 27
+    },
+    {
+      "name": "2.3",
+      "taskId": 6,
+      "isDone": true,
+      "id": 28
+    },
+    {
+      "name": "2.4",
+      "taskId": 5,
+      "isDone": false,
+      "id": 29
+    },
+    {
+      "name": "Сделана обработка долгих загрузок, но можно обработать красивее",
+      "taskId": 3,
+      "isDone": true,
+      "id": 30
+    },
+    {
+      "name": "Надо бы разделить логику и остальное друг от друга",
+      "taskId": 3,
+      "isDone": false,
+      "id": 31
+    }
+  ]
+}
